@@ -1,3 +1,4 @@
+# Stats
 def get_num_words(file_contents):
     split_contents = file_contents.split()
     return len(split_contents)
