@@ -30,9 +30,9 @@ def main():
         for value in sorted_dict:
             print(f"{value['char']}: {value['num']}")
         print("============= END ===============")
-        return sys.exit(1)
+        sys.exit(0)
 
     else:
         print("Usage: python3 main.py <path_to_book>")
-
+        sys.exit(1)
 main()
